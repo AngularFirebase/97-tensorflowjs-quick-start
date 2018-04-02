@@ -30,7 +30,7 @@
     "label-position": true,
     "max-line-length": [
       true,
-      140
+      256
     ],
     "member-access": false,
     "member-ordering": [
@@ -70,7 +70,7 @@
     "no-string-literal": false,
     "no-string-throw": true,
     "no-switch-case-fall-through": true,
-    "no-trailing-whitespace": true,
+    "no-trailing-whitespace": false,
     "no-unnecessary-initializer": true,
     "no-unused-expression": true,
     "no-use-before-declare": true,
@@ -89,10 +89,6 @@
       "single"
     ],
     "radix": true,
-    "semicolon": [
-      true,
-      "always"
-    ],
     "triple-equals": [
       true,
       "allow-null-check"
@@ -120,13 +116,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "",
       "kebab-case"
     ],
     "no-output-on-prefix": true,
